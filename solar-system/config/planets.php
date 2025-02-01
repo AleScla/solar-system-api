@@ -1,0 +1,107 @@
+<?php
+return [
+    [
+        "id" => 1,
+        "name" => "Mercurio",
+        "diameter_km" => 4879,
+        "mass_kg" => 3.3011e23,
+        "average_distance_from_sun_km" => 57910000,
+        "orbital_period_days" => 88,
+        "moons" => 0,
+        "atmospheric_composition" => "Ossigeno, Sodio, Idrogeno, Elio, Potassio",
+        "average_temperature_celsius" => 167,
+        "type" => "Terrestre",
+        "description" => ""
+    ],
+    [
+        "id" => 2,
+        "name" => "Venere",
+        "diameter_km" => 12104,
+        "mass_kg" => 4.8675e24,
+        "average_distance_from_sun_km" => 108200000,
+        "orbital_period_days" => 225,
+        "moons" => 0,
+        "atmospheric_composition" => "Diossido di carbonio, Azoto, Anidride solforosa",
+        "average_temperature_celsius" => 464,
+        "type" => "Terrestre",
+        "description" => ""
+    ],
+    [
+        "id" => 3,
+        "name" => "Terra",
+        "diameter_km" => 12742,
+        "mass_kg" => 5.97237e24,
+        "average_distance_from_sun_km" => 149600000,
+        "orbital_period_days" => 365.25,
+        "moons" => 1,
+        "atmospheric_composition" => "Azoto, Ossigeno, Argon, Anidride carbonica",
+        "average_temperature_celsius" => 15,
+        "type" => "Terrestre",
+        "description" => ""
+    ],
+    [
+        "id" => 4,
+        "name" => "Marte",
+        "diameter_km" => 6779,
+        "mass_kg" => 6.4171e23,
+        "average_distance_from_sun_km" => 227900000,
+        "orbital_period_days" => 687,
+        "moons" => 2,
+        "atmospheric_composition" => "Diossido di carbonio, Azoto, Argon, Ossigeno",
+        "average_temperature_celsius" => -63,
+        "type" => "Terrestre",
+        "description" => ""
+    ],
+    [
+        "id" => 5,
+        "name" => "Giove",
+        "diameter_km" => 139820,
+        "mass_kg" => 1.8982e27,
+        "average_distance_from_sun_km" => 778500000,
+        "orbital_period_days" => 4333,
+        "moons" => 95,
+        "atmospheric_composition" => "Idrogeno, Elio, Metano, Ammoniaca",
+        "average_temperature_celsius" => -145,
+        "type" => "Gigante gassoso",
+        "description" => ""
+    ],
+    [
+        "id" => 6,
+        "name" => "Saturno",
+        "diameter_km" => 116460,
+        "mass_kg" => 5.6834e26,
+        "average_distance_from_sun_km" => 1433000000,
+        "orbital_period_days" => 10759,
+        "moons" => 146,
+        "atmospheric_composition" => "Idrogeno, Elio, Metano, Ammoniaca",
+        "average_temperature_celsius" => -178,
+        "type" => "Gigante gassoso",
+        "description" => ""
+    ],
+    [
+        "id" => 7,
+        "name" => "Urano",
+        "diameter_km" => 50724,
+        "mass_kg" => 8.6810e25,
+        "average_distance_from_sun_km" => 2871000000,
+        "orbital_period_days" => 30687,
+        "moons" => 27,
+        "atmospheric_composition" => "Idrogeno, Elio, Metano",
+        "average_temperature_celsius" => -224,
+        "type" => "Gigante ghiacciato",
+        "description" => ""
+    ],
+    [
+        "id" => 8,
+        "name" => "Nettuno",
+        "diameter_km" => 49244,
+        "mass_kg" => 1.02413e26,
+        "average_distance_from_sun_km" => 4495000000,
+        "orbital_period_days" => 60190,
+        "moons" => 14,
+        "atmospheric_composition" => "Idrogeno, Elio, Metano",
+        "average_temperature_celsius" => -214,
+        "type" => "Gigante ghiacciato",
+        "description" => ""
+    ]
+];
