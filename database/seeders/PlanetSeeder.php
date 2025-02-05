@@ -31,7 +31,7 @@ class PlanetSeeder extends Seeder
                 'avg_temp'=>$planet['average_temperature_celsius'],
                 'description'=>$planet['description'],
                 'link'=>$planet['link'],
-                'video'=>$planet['video'],
+                'video'=>asset('storage/'.$planet['video']),
             ]);
         }
 
