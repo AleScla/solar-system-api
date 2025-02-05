@@ -18,9 +18,9 @@ class Planet extends Model
         'link',
         'video'
     ];
-    protected $with = [ // To include on Planet::get(), table related ( called with function names ).
-        'type',
-    ];
+    // protected $with = [ // To include on Planet::get(), table related ( called with function names ).
+    //     'type',
+    // ];
 
     public function type()
     {
