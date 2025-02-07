@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('mass_kg', 64);
             $table->mediumInteger('diameter_km')->unsigned();
             $table->bigInteger('sun_distance');
-            $table->mediumInteger('orbital_days');
+            $table->mediumInteger('orbital_days')->nullable();
             $table->tinyInteger('moons')->unsigned();
             $table->text('atmosphere');
             $table->smallInteger('avg_temp');
