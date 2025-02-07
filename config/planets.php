@@ -1,6 +1,21 @@
 <?php
 return [
     [
+        "id"=> 9,
+        "name"=> "Sole",
+        "diameter_km"=> 1392700,
+        "mass_kg"=> "2,00502×10^30",
+        "average_distance_from_sun_km"=> 0,
+        "orbital_period_days" => null,
+        "moons"=> 0,
+        "atmospheric_composition"=>"Idrogeno, Elio, Ossigeno, Nitrogeno",
+        "average_temperature_celsius" => 5600,
+        "type" => "Stella",
+        "description" => "Il Sole (dal latino Sol) è la stella madre del sistema solare, attorno alla quale orbitano gli otto pianeti principali (tra cui la Terra), i pianeti nani, i loro satelliti, innumerevoli altri corpi minori e la polvere diffusa per lo spazio, che forma il mezzo interplanetario. La massa del Sole, che ammonta a circa 2,00502×10^30 kg, rappresenta da sola il 99,86% della massa complessiva del sistema solare. Il Sole è una stella di dimensioni medio-piccole costituita principalmente da idrogeno (circa il 74% della sua massa, il 92,1% del suo volume) ed elio (circa il 24-25% della massa, il 7,8% del volume), cui si aggiungono altri elementi più pesanti presenti in tracce. È classificato come una 'nana gialla' di tipo spettrale G2 V: 'G2' indica che la stella ha una temperatura superficiale di 5 777 K (5 504 °C), caratteristica che le conferisce un colore bianco estremamente intenso e cromaticamente freddo che però spesso può apparire giallognolo a causa della diffusione luminosa nell'atmosfera terrestre. Il Sole, come la maggior parte delle stelle, è nella sequenza principale, ovvero in una lunga fase di equilibrio stabile in cui l'astro fonde, nel proprio nucleo, l'idrogeno in elio. Tale processo genera ogni secondo una grande quantità di energia (equivalente a una potenza di 3,9×10^26 W), emessa nello spazio sotto forma di radiazioni elettromagnetiche (radiazioni solari), flusso di particelle (vento solare) e neutrini.",
+        "link"=>"https://it.wikipedia.org/wiki/Sole",
+        "video"=>"videos/sun.mp4",
+    ],
+    [
         "id" => 8,
         "name" => "Mercurio",
         "diameter_km" => 4879,
